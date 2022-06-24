@@ -20,8 +20,8 @@ So I accepted and finished this challenge the very same day. That's how easy it 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URl](https://www.frontendmentor.io/solutions/solution-qr-code-component-using-scss-and-bootstrap-Cc2CRBOgdy))
+- [Live Site URL](https://nerometa.github.io/qr-code-component-challenge/))
 
 ## My process
 
