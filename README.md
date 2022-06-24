@@ -31,7 +31,7 @@ So I accepted and finished this challenge the very same day. That's how easy it 
 - [SCSS](https://sass-lang.com/)
 - [Bootstrap](https://getbootstrap.com/)
 
-With SCSS and Bootstrap, this project maybe a little bit overkill, but I want to do it fast and efficient and these guys delivers. In fact, it's so efficient I don't even have to use breakpoints that the challenge provides me. Bootstrap handles all of that for me.
+With SCSS and Bootstrap, this project maybe a little bit overkill, but I want to do it fast and efficient and these guys delivers.
 
 ### What I learned
 
