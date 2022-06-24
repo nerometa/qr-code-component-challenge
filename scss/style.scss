@@ -4,21 +4,43 @@
 body {
   font-family: $main-font !important;
   background-color: $light-gray !important;
+  font-size: $font-size;
 }
 
 .card {
-  max-width: max(10vw, 25rem);
+  max-width: max(10vw, 20rem);
   box-shadow: 0 0 10px rgba($color: $dark-blue, $alpha: 0.125);
 
   .card-body {
-    h3 {
+    h1 {
       font-weight: $font-bold;
       color: $dark-blue;
+      font-size: $font-size * 2;
     }
 
     p {
       font-weight: $font-regular;
       color: $grayish-blue;
+      font-size: $font-size;
     }
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: max(15vw, 25rem);
+    .card-body {
+      h1 {
+        font-size: $font-size * 2.5;
+      }
+
+      p {
+        font-size: $font-size + 3;
+      }
+    }
+  }
+
+  footer {
+    font-size: $font-size + 3;
   }
 }

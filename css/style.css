@@ -78,17 +78,36 @@ select {
 body {
   font-family: "Outfit", sans-serif !important;
   background-color: hsl(212deg, 45%, 89%) !important;
+  font-size: 15px;
 }
 
 .card {
-  max-width: max(10vw, 25rem);
+  max-width: max(10vw, 20rem);
   box-shadow: 0 0 10px rgba(31, 50, 81, 0.125);
 }
-.card .card-body h3 {
+.card .card-body h1 {
   font-weight: 700;
   color: hsl(218deg, 44%, 22%);
+  font-size: 30px;
 }
 .card .card-body p {
   font-weight: 400;
   color: hsl(220deg, 15%, 55%);
+  font-size: 15px;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: max(15vw, 25rem);
+  }
+  .card .card-body h1 {
+    font-size: 37.5px;
+  }
+  .card .card-body p {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */

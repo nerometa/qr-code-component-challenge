@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,9 +11,11 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Outfit"
     />
     <link rel="stylesheet" href="css/style.css" />
     <title>Frontend Mentor | QR code component</title>
@@ -31,9 +33,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="col-12">
     <main
       class="attribution container d-flex flex-column justify-content-center align-items-center my-5 min-vh-100"
+      role="main"
     >
       <div class="card rounded-4 p-3 mx-3 mx-md-5">
         <img
@@ -42,9 +45,9 @@
           class="card-img-top rounded-3"
         />
         <div class="card-body text-center px-2 px-md-3 p-md-3">
-          <h3 class="mt-2 mb-4">
+          <h1 class="mt-2 mb-4">
             Improve your front-end skills by building projects
-          </h3>
+          </h1>
           <p>
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
@@ -52,7 +55,7 @@
         </div>
       </div>
     </main>
-    <footer class="footer position-sticky text-center">
+    <footer class="footer position-sticky text-center" role="contentinfo">
       <p>
         Challenge by
         <a
