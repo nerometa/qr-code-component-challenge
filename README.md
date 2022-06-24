@@ -85,7 +85,7 @@ That's why I use `*` to not having to put namespaces whenever I want to use vari
 ### Useful resources
 
 - [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/) - This helped me resets CSS values, like remove that body margin so you can apply truly full background color.
-- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) - If you use Visual Studio Code, this is really helpful when you use Sass/SCSS. If you still have an extension by Ritwick Dey by the same name, switch to this one because the Ritick Dey one is not maintained anymore.
+- [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) - If you use Visual Studio Code, this is really helpful when you use Sass/SCSS. If you still have an extension by Ritwick Dey by the same name, switch to this one because the Ritwick Dey one is not maintained anymore.
 
 ## Author
 
